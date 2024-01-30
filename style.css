@@ -6,18 +6,21 @@
 
 
 body {
+
     min-height: 100vh;
     /* Establece el alto mínimo del cuerpo al 100% de la ventana visible */
     margin-bottom: 60px;
+   
     /* Ajusta el margen inferior para que el contenido no se solape con el footer */
 }
 
 
 hr {
-    width: 80%; 
+    width: 80%;
     margin: 0 auto;
-    margin-top: 10%; 
-    margin-bottom: 10%;}
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
 
 
 footer {
@@ -33,7 +36,8 @@ footer {
     /* Ajusta el relleno del footer según tu preferencia */
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
 }
@@ -49,14 +53,15 @@ html, body {
     height: 100px;
 }
 
-.carousel{
+.carousel {
     background-color: rgba(0, 0, 0, 0.112);
     padding: 15%;
 }
 
 .logos {
-    max-width: 15%; 
-    min-width: 70px;}
+    max-width: 15%;
+    min-width: 70px;
+}
 
 footer {
     width: 100%;
@@ -65,19 +70,40 @@ footer {
     padding: 20px;
 }
 
-#sobremi{
-   margin: 10%;
- 
+#sobremi {
+    margin: 10%;
+
+
 }
 
-#foto{
+.lead{
+    z-index: 1;
+}
+
+#foto {
     width: 100%;
 }
 
 .logos {
-    margin: 20px; /* Ajusta el margen según tus preferencias */
+    margin: 20px;
+    /* Ajusta el margen según tus preferencias */
+
 }
 
-.titulo{
+.titulo {
     margin-bottom: 2%;
+
 }
+
+
+.barra {
+    background-color: rgb(86, 86, 217);
+    width: 150px;
+    padding: 20px;
+    border-radius:20px;
+    transform: rotate(-25deg);
+    bottom: 50px;
+    z-index: 999;
+    
+}
+
