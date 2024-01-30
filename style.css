@@ -1,0 +1,83 @@
+#cluster {
+    margin-top: 100px;
+
+}
+
+
+
+body {
+    min-height: 100vh;
+    /* Establece el alto mínimo del cuerpo al 100% de la ventana visible */
+    margin-bottom: 60px;
+    /* Ajusta el margen inferior para que el contenido no se solape con el footer */
+}
+
+
+hr {
+    width: 80%; 
+    margin: 0 auto;
+    margin-top: 10%; 
+    margin-bottom: 10%;}
+
+
+footer {
+    /* Quita las siguientes propiedades para que el footer no esté fijo en la parte inferior */
+    /* position: fixed;
+    bottom: 0; */
+    width: 100%;
+    background-color: #343a40;
+    /* Cambia el color de fondo del footer según tu preferencia */
+    color: white;
+    /* Cambia el color del texto del footer según tu preferencia */
+    padding: 20px 0;
+    /* Ajusta el relleno del footer según tu preferencia */
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+.carousel-control-prev-icon {
+    background-color: black;
+    height: 100px;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+    height: 100px;
+}
+
+.carousel{
+    background-color: rgba(0, 0, 0, 0.112);
+    padding: 15%;
+}
+
+.logos {
+    max-width: 15%; 
+    min-width: 70px;}
+
+footer {
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+}
+
+#sobremi{
+   margin: 10%;
+ 
+}
+
+#foto{
+    width: 100%;
+}
+
+.logos {
+    margin: 20px; /* Ajusta el margen según tus preferencias */
+}
+
+.titulo{
+    margin-bottom: 2%;
+}
