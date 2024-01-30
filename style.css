@@ -1,17 +1,8 @@
-#cluster {
-    margin-top: 100px;
-
-}
-
-
-
 body {
-
+    margin: 0;
     min-height: 100vh;
-    /* Establece el alto mínimo del cuerpo al 100% de la ventana visible */
     margin-bottom: 60px;
-   
-    /* Ajusta el margen inferior para que el contenido no se solape con el footer */
+    height: 100%;
 }
 
 
@@ -22,61 +13,32 @@ hr {
     margin-bottom: 10%;
 }
 
-
-footer {
-    /* Quita las siguientes propiedades para que el footer no esté fijo en la parte inferior */
-    /* position: fixed;
-    bottom: 0; */
-    width: 100%;
-    background-color: #343a40;
-    /* Cambia el color de fondo del footer según tu preferencia */
-    color: white;
-    /* Cambia el color del texto del footer según tu preferencia */
-    padding: 20px 0;
-    /* Ajusta el relleno del footer según tu preferencia */
-}
-
-html,
 body {
-    height: 100%;
-    margin: 0;
+    margin: 5px;
 }
 
 
-.carousel-control-prev-icon {
-    background-color: black;
-    height: 100px;
+
+
+#cluster {
+    margin-top: 100px;
 }
 
-.carousel-control-next-icon {
-    background-color: black;
-    height: 100px;
-}
 
-.carousel {
-    background-color: rgba(0, 0, 0, 0.112);
-    padding: 15%;
-}
 
 .logos {
     max-width: 15%;
     min-width: 70px;
+
 }
 
-footer {
-    width: 100%;
-    background-color: #343a40;
-    color: white;
-    padding: 20px;
-}
 
 #sobremi {
     margin: 10%;
-
-
 }
 
-.lead{
+
+.lead {
     z-index: 1;
 }
 
@@ -84,26 +46,27 @@ footer {
     width: 100%;
 }
 
-.logos {
-    margin: 20px;
-    /* Ajusta el margen según tus preferencias */
-
-}
-
 .titulo {
     margin-bottom: 2%;
+}
 
+.container {
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
 }
 
 
-.barra {
-    background-color: rgb(86, 86, 217);
-    width: 150px;
-    padding: 20px;
-    border-radius:20px;
-    transform: rotate(-25deg);
-    bottom: 50px;
-    z-index: 999;
-    
+footer {
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
 }
 
+
+.imagen {
+
+    padding: 10%;
+    max-width: 80%;
+}
